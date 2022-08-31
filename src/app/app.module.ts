@@ -5,6 +5,8 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { ListadoComponent } from './heroes/listado/listado.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
+import { FormsModule } from '@angular/forms';
 @
 NgModule({
   declarations: [
@@ -15,7 +17,9 @@ NgModule({
   imports: [
     BrowserModule,
     HeroesModule,
-    ContadorModule
+    ContadorModule,
+    DbzModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
